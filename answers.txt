@@ -1,0 +1,24 @@
+1) Explain why a number data type added to a string data type returns a string.
+    Answer: So when you add a number to a string you will use the + key which will concatinate the two together which returns them both as a string. 
+
+    This + sign will concatinate when used with a string, and add when it is two numbers.
+
+
+
+2) Name a scenario where using the == operator could cause a bug.
+    Answer: When you are comparing values of different types. When type coercion happens, it tries to convert the operands tot he same type before comparison. This is where the bug can/will happen.
+
+    A good example of this could be:
+                0 == "0"
+            This will return true because == will convert the string "0" to the number 0 before comparison. 
+
+
+
+3) Name the operator(s) that you find confusing and explain why.
+    Answer: An operator I find confusing is the == operator.
+        This always comes off confusing to me in how it converts to the same type and then evaluates. I haven't spent a whole lot of time trying to fully understand it as I just opt for === operator instead.
+
+
+4) Explain a situation where you would use the Modulus operator and why.
+
+    Answer: A good situation where I would use the Modulus operator is when I can use an even or odd number. The Modulus operator can be usefull in a variety of situations from counting even and odd numbers, restricting certain numbers to a certain multiple, determining array positions, and more.
